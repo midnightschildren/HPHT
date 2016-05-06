@@ -1,0 +1,76 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 2880087, 2014-09-09T15:34:00-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Brix Sans Black by HVD Fonts
+ * URL: http://www.myfonts.com/fonts/hvdfonts/brix-sans/black/
+ * 
+ * Webfont: Brix Sans Bold by HVD Fonts
+ * URL: http://www.myfonts.com/fonts/hvdfonts/brix-sans/bold/
+ * 
+ * Webfont: Brix Sans ExtraLight by HVD Fonts
+ * URL: http://www.myfonts.com/fonts/hvdfonts/brix-sans/extra-light/
+ * 
+ * Webfont: Brix Sans Light by HVD Fonts
+ * URL: http://www.myfonts.com/fonts/hvdfonts/brix-sans/light/
+ * 
+ * Webfont: Brix Sans Medium by HVD Fonts
+ * URL: http://www.myfonts.com/fonts/hvdfonts/brix-sans/medium/
+ * 
+ * Webfont: Brix Sans Regular by HVD Fonts
+ * URL: http://www.myfonts.com/fonts/hvdfonts/brix-sans/regular/
+ * 
+ * Webfont: Brix Sans Bold Italic by HVD Fonts
+ * URL: http://www.myfonts.com/fonts/hvdfonts/brix-sans/bold-italic/
+ * 
+ * Webfont: Brix Sans ExtraLight Italic by HVD Fonts
+ * URL: http://www.myfonts.com/fonts/hvdfonts/brix-sans/extra-light-italic/
+ * 
+ * Webfont: Brix Sans Light Italic by HVD Fonts
+ * URL: http://www.myfonts.com/fonts/hvdfonts/brix-sans/light-italic/
+ * 
+ * Webfont: Brix Sans Medium Italic by HVD Fonts
+ * URL: http://www.myfonts.com/fonts/hvdfonts/brix-sans/medium-italic/
+ * 
+ * Webfont: Brix Sans Black Italic by HVD Fonts
+ * URL: http://www.myfonts.com/fonts/hvdfonts/brix-sans/black-italic/
+ * 
+ * Webfont: Brix Sans Italic by HVD Fonts
+ * URL: http://www.myfonts.com/fonts/hvdfonts/brix-sans/italic/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2880087
+ * Licensed pageviews: 10,000
+ * Webfonts copyright: Copyright (c) 2014 by Hannes von Doehren, Livius Dietzel. All rights reserved.
+ * 
+ * © 2014 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2bf257");
+
+  
+@font-face {font-family: 'BrixSansBold';src: url('../fonts/2BF257_1_0.eot');src: url('../fonts/2BF257_1_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2BF257_1_0.woff') format('woff'),url('../fonts/2BF257_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'BrixSansLight';src: url('../fonts/2BF257_3_0.eot');src: url('../fonts/2BF257_3_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2BF257_3_0.woff') format('woff'),url('../fonts/2BF257_3_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'BrixSansRegular';src: url('../fonts/2BF257_5_0.eot');src: url('../fonts/2BF257_5_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2BF257_5_0.woff') format('woff'),url('../fonts/2BF257_5_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'BrixSansBold-Italic';src: url('../fonts/2BF257_6_0.eot');src: url('../fonts/2BF257_6_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2BF257_6_0.woff') format('woff'),url('../fonts/2BF257_6_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'BrixSansLight-Italic';src: url('../fonts/2BF257_8_0.eot');src: url('../fonts/2BF257_8_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2BF257_8_0.woff') format('woff'),url('../fonts/2BF257_8_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'BrixSansRegular-Italic';src: url('../fonts/2BF257_B_0.eot');src: url('../fonts/2BF257_B_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2BF257_B_0.woff') format('woff'),url('../fonts/2BF257_B_0.ttf') format('truetype');}
+ 

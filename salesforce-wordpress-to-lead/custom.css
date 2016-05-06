@@ -1,0 +1,399 @@
+/* SalesForce WordPress to Lead Default CSS */
+
+.salesforce_w2l_lead form.w2llead {
+    text-align: left;
+    clear: none;
+}
+#sf_form_salesforce_w2l_lead_2 > div.sf_field.sf_field_cb.sf_type_checkbox.sf_cc_user > label {
+    font-size: 14px;
+    padding: 8px;
+    margin: .25em 0;
+}
+input::-webkit-input-placeholder {
+color: #56514C !important;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+color: #56514C !important;  
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+color: #56514C !important;  
+}
+ 
+input:-ms-input-placeholder {  
+color: #56514C !important;  
+}
+
+.salesforce_w2l_lead #salesforce {
+    margin: .25em 0 0 0;
+    color: #aaa;
+}
+
+.salesforce_w2l_lead #salesforce a {
+    color: #999;
+}
+
+.salesforce_w2l_lead .w2llabel, .w2linput {
+    display: block;
+    float: left;
+    box-sizing: border-box;
+}
+
+.salesforce_w2l_lead .w2llabel.error {
+    color: #f00;
+}
+
+.salesforce_w2l_lead .w2llabel {
+    clear: none;
+    margin: .25em 0;
+    width: 32%;
+}
+
+.salesforce_w2l_lead .w2linput.text {
+    width: 32%;
+    height: auto;
+    margin: .25em 0;
+
+}
+
+.sf_field_00NA0000005C5ER select {
+   background: transparent;
+   width: 32%;
+   margin: .25em 0;
+   margin-right: 2%;
+   padding: 8px;
+   font-size: 14px;
+   line-height: normal;
+   height: auto;
+   border: 1px solid #EEECE9;
+   border-radius: 0;
+   color: #56514C;
+   -webkit-appearance: none;
+   -moz-appearance:none;
+   overflow:hidden;
+   background: url(http://eccla.codisattva.com/wp-content/uploads/2016/02/arrow_dn.png) no-repeat right;
+}
+
+
+
+.sf_field_00NA0000005C5ER select option {
+    color: #56514C;
+}
+
+.sf_field_last_name  .w2linput.text, .sf_field_first_name  .w2linput.text {
+    margin-right: 2%;
+}
+
+.salesforce_w2l_lead .w2linput.textarea {
+    width: 100%;
+    height: 6em;
+    margin: .75em 0;
+}
+
+.salesforce_w2l_lead .w2lsubmit {
+    float: none;
+    clear: both;
+    padding: .5em 0;
+    text-align: center;
+}
+
+.salesforce_w2l_lead .w2linput.submit {
+    float: none;
+    margin: .75em 0 0 0;
+    clear: none;
+}
+
+.salesforce_w2l_lead .w2llabel.checkbox,
+.salesforce_w2l_lead .w2linput.checkbox {
+    display: inline-block;
+    float: right;
+    margin-right: 50%;
+    font-size: 35px;
+    margin-top: .1em;
+}
+
+
+
+
+.salesforce_w2l_lead .sf_type_checkbox input {
+    width: .5em;
+}
+
+.salesforce_w2l_lead .w2llabel.checkbox {
+    clear: none;
+    margin: 0;
+}
+
+.salesforce_w2l_lead .w2linput.textarea, .salesforce_w2l_lead .w2linput.text {
+    font-size: 14px;
+}
+
+.salesforce_w2l_lead .top-aligned .w2linput {
+    clear: left;
+}
+
+.salesforce_w2l_lead .top-aligned .w2llabel {
+    width: 100%;
+}
+
+.salesforce_w2l_lead .left-aligned .w2llabel {
+    width: 25%;
+}
+
+.salesforce_w2l_lead .left-aligned .w2linput.text, .salesforce_w2l_lead .left-aligned .w2linput.textarea {
+    width: 75%;
+}
+
+.salesforce_w2l_lead .sidebar.left-aligned .w2llabel, .salesforce_w2l_lead .sidebar.left-aligned .w2linput {
+	width: 50%;
+}
+
+.salesforce_w2l_lead .sidebar.left-aligned .w2llabel.checkbox {
+	width: auto;
+}
+
+.salesforce_w2l_lead .sidebar.left-aligned .w2linput.checkbox {
+	width: 1.25em;
+}
+
+.salesforce_w2l_lead .top-aligned .w2llabel.checkbox, .salesforce_w2l_lead .left-aligned .w2llabel.checkbox {
+    width: auto;
+}
+
+.salesforce_w2l_lead .placeholders .w2linput {
+}
+
+.salesforce_w2l_lead .w2linput.text.captcha {
+    width: 160px;
+    float: left;
+    clear: none;
+}
+
+.salesforce_w2l_lead .w2limg {
+    display: block;
+    clear: both;
+    float: left;
+}
+
+.salesforce_w2l_lead .required {
+    font-weight: bold;
+    color: inherit;
+}
+
+.salesforce_w2l_lead span.required {
+    color: #FF9152;
+    font-size: 14px;
+}
+
+.salesforce_w2l_lead .left-aligned .w2limg {
+    float: left;
+    clear: none;
+}
+
+.salesforce_w2l_lead .w2linput.text.captcha {
+    height: 75px;
+    margin: 0 0 0 .5em;
+    font-size: 2.5em;
+    font-family: 'Times New Yorker', serif;
+    text-align: center;
+}
+
+.salesforce_w2l_lead .sf_cc_user {
+    padding: 1em 0;
+}
+
+.salesforce_w2l_lead .sidebar .w2linput, .salesforce_w2l_lead .sidebar .w2llabel {
+    float: none;
+    display: block;
+}
+
+.salesforce_w2l_lead .sidebar .w2linput.checkbox, .salesforce_w2l_lead .sidebar .w2llabel.checkbox {
+    float: none;
+    display: inline-block;
+    width: auto;
+}
+
+.salesforce_w2l_lead .sidebar.left-aligned .w2linput, .salesforce_w2l_lead .sidebar.left-aligned .w2llabel {
+    float: left;
+    display: inline;
+}
+
+.salesforce_w2l_lead .sidebar.left-aligned .w2linput.checkbox, .salesforce_w2l_lead .sidebar.left-aligned .w2llabel.checkbox {
+    float: none;
+}
+
+.salesforce_w2l_lead .sidebar.left-aligned .w2linput.checkbox{
+	float: none;
+}
+
+.salesforce_w2l_lead .sidebar .w2llabel.error {
+    color: #f00;
+}
+
+.salesforce_w2l_lead .sidebar .w2llabel {
+    padding: .15em 0;
+}
+
+.salesforce_w2l_lead .sidebar .top-aligned .w2llabel {
+    float: none;
+    display: block;
+}
+
+.salesforce_w2l_lead .sidebar select {
+	max-width: 100%;
+}
+
+.salesforce_w2l_lead .sidebar .w2linput.text {
+    width: 95%;
+    height: auto;
+    margin: .25em 0;
+}
+
+.salesforce_w2l_lead .sidebar .w2linput.textarea {
+    width: 95%;
+    height: 4em;
+    margin: .25em 0;
+}
+
+.salesforce_w2l_lead .sidebar.left-aligned .w2linput.textarea, .salesforce_w2l_lead .sidebar.left-aligned .w2linput.text {
+	width: 50%;
+}
+
+.salesforce_w2l_lead .sidebar .w2lsubmit {
+    float: none;
+    clear: both;
+    padding: .5em 0;
+    display: block;
+    width: 100%;
+}
+
+.salesforce_w2l_lead .sidebar .sf_type_captcha {
+    text-align: center;
+}
+
+.salesforce_w2l_lead .sidebar .sf_type_captcha .w2llabel {
+    padding: .5em 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.salesforce_w2l_lead .sidebar .w2linput.text.captcha, .salesforce_w2l_lead .sidebar .w2limg {
+    float: none;
+    display: inline-block;
+}
+
+.salesforce_w2l_lead .sidebar .w2linput.text.captcha {
+    margin: .25em 0 0 0;
+    height: auto;
+    font-size: 1em;
+}
+
+.salesforce_w2l_lead .sf_field, .sf_type_checkbox {
+    clear: none;
+}
+
+.salesforce_w2l_lead .sidebar .sf_field{
+	padding: .25em 0;
+}
+
+.salesforce_w2l_lead .sf_field span.error_message {
+    clear: none;
+    display: block;
+    color: red;
+    font-size: 80%;
+}
+
+.salesforce_w2l_lead .clearfix {
+    clear: none;
+    display:none;
+}
+
+.salesforce_w2l_lead .sf_required_fields_msg{
+	clear: none;
+	display: block;
+	float: none;
+    position: relative;
+    color: #FF9152;
+    top: -110px;
+    left: 85%;
+    width: 120px;
+    font-size: 14px;
+}
+
+@media (max-width: 550px) {
+.salesforce_w2l_lead .w2linput.text {
+    width: 100%;
+    height: auto;
+    margin-right: 0%;
+}
+
+.sf_field_00NA0000005C5ER select {
+    width: 100%;
+}
+
+.salesforce_w2l_lead .w2llabel {
+    clear: none;
+    margin: .25em 0;
+    width: 100%;
+}
+
+.salesforce_w2l_lead .sf_required_fields_msg {
+    left: 50%;
+    top: -104px;
+}
+
+
+
+.salesforce_w2l_lead .w2llabel.checkbox,
+.salesforce_w2l_lead .w2linput.checkbox {
+
+    margin-right: 60%;
+}
+
+.salesforce_w2l_lead {
+    margin-bottom: -42px;
+}
+
+}
+
+@media (min-width: 551px) and (max-width: 800px) { 
+
+.salesforce_w2l_lead .w2llabel.checkbox,
+.salesforce_w2l_lead .w2linput.checkbox {
+
+    margin-right: 55%;
+}
+
+.salesforce_w2l_lead .sf_required_fields_msg {
+    left: 75%;
+}
+
+.salesforce_w2l_lead .w2llabel {
+    clear: none;
+    margin: .25em 0;
+    width: 50%;
+}
+
+#sf_form_salesforce_w2l_lead_2 > div.sf_field.sf_field_cb.sf_type_checkbox.sf_cc_user > label {
+    padding: 8px 0px;
+}
+
+.sf_field_00NA0000005C5ER select {
+    width: 48%;
+
+}
+
+#sf_last_name {
+    padding-left: 8px;
+}
+
+.salesforce_w2l_lead .w2linput.text {
+    width: 48%;
+    height: auto;
+    margin-right: 1%;
+    
+
+}
+
+}
