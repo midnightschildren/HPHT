@@ -18,21 +18,9 @@
 
 		<footer class="site-footer row" role="contentinfo">
 
-			<div class="col grey4 grid-12 pad-3-bottom">
+			<div class="col redht grid-12 pad-3-bottom">
 			<div class="eccla_wrapper">
-				<div class="row grid-12">
-					<div class="col grid-5 m-grid-4 s-grid-4">&nbsp;</div>
-					<div class="col grid-2  m-grid-4 s-grid-4 pad-3-top">
-						<div class="row grid-12 pad-3-top">
-							
-							<div class="ftlogo">
-							<img src="">
-							</div>
-							
-						</div>
-					</div>
-					<div class="col grid-5 m-grid-4  s-grid-4">&nbsp;</div>
-				</div>
+				
 
 			<?php
 			// Count how many footer sidebars are active so we can work out how many containers we need
@@ -65,8 +53,13 @@
 				} ?>
 
 			<?php } ?>
-				<div class="col grid-12 pad-3-top s-pad-3-sides">
-				<p class="copyright">Copyright © <?php echo date('Y'); ?> Highland Park Heritage Trust. All rights reserved.</p>
+				<div class="col grid-12 pad-2-bottom s-pad-3-sides">
+				<p class="copyright">Highland Park Heritage Trust<br />
+				PO Box 50894<br />
+				Los Angeles, CA 90050-0894<br />
+				(323) 908-4127<br />
+				<a href="mailto:info@hpht.org">info@hpht.org</a><br /><br />	
+				Copyright © <?php echo date('Y'); ?> Highland Park Heritage Trust. All rights reserved.</p>
 				</div>
 			</div>
 			</div>

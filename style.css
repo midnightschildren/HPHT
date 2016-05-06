@@ -165,6 +165,10 @@ a[href^="tel"]{
 	background-color: #EEECE9;
 }
 
+.redht {
+	background-color: #67240A;
+}
+
 #callout {
 	width:100%; 
   	position: relative;
@@ -477,9 +481,9 @@ input[type=search] {
 }
 
 .copyright {
-	font-size: 13px;
-	font-size: .8125rem;
-	color: #C3BEB6;
+	font-size: 16px;
+	font-size: 1rem;
+	color: #FFFFFF;
 	font-family: 'BrixSansRegular', Helvetica, Arial, sans-serif;
 	font-style: normal;
 	font-weight: 400;
@@ -2365,7 +2369,7 @@ form label.error {
 	margin: 0 auto;
 	padding: 0px 0 0 0;
 	padding: 0rem 0 0 0;
-	color: #999;
+	color: #FFF;
 }
 
 .site-footer h3 { 
@@ -2373,20 +2377,20 @@ form label.error {
 }
 
 .site-footer a { 
-	color: #999;
+	color: #F2CC67;
 }
 
 .site-footer a:visited { 
-	color: #999;
+	color: #F2CC67;
 }
 
 .site-footer a:hover { 
-	color: #2997ab;
+	color: #FFFFFF;
 }
 
 .site-footer a:focus { 
 	outline: thin dotted;
-	color: #2997ab;
+	color: #FFFFFF;
 }
 
 .site-footer .widget-area .widget {
