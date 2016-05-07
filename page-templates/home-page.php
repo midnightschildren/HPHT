@@ -72,24 +72,7 @@ get_header(); ?>
 </div>
 <?php endwhile; ?>
 <?php wp_reset_postdata(); // reset the query ?>			
-		<div class="col grid-12 map">
-
-		<div class="background">
-			<div class="background-image background-left" style="background-image:url(http://eccla.codisattva.com/wp-content/uploads/2016/03/ECCLA_Website_MapAsset_sm.jpg)"></div>
-			<div class="background-image background-middle" style="background-image:url(http://eccla.codisattva.com/wp-content/uploads/2016/03/ECCLA_Website_MapAsset_sm.jpg)"></div>
-			<div class="background-image background-right" style="background-image:url(http://eccla.codisattva.com/wp-content/uploads/2016/03/ECCLA_Website_MapAsset_sm.jpg)"></div>
-
-				<div class="service-btn pad-3-bottom">
-					<div class="eccla_wrapper">
-						<div class="greybox"><h2>Service Area</h2></div>
-					</div>
-				</div>
-				<div class="btn-wrapper vmap">
-					<a href="/service-area/"><div class="btn gbtn">View Map</div></a>	
-				</div>
-							
-		</div>
-		</div>
+		
 
 <div class="col grid-12 pad-3-bottom eccla_wrapper">
 <div class="col grid-1half m-grid-1">&nbsp;</div>
@@ -122,7 +105,7 @@ while($custom_query->have_posts()) : $custom_query->the_post(); ?>
 		<div class="eccla_wrapper">
 		<div class="col grid-12">
 			<div class="col grid-1half m-grid-1">&nbsp;</div>
-			<div class="col grid-11 m-grid-10 pad-1-bottom"><h2 class="eccBlue">ECCLA on Facebook</h2></div>
+			<div class="col grid-11 m-grid-10 pad-1-bottom"><h2 class="eccBlue">Heritage Trust on Facebook</h2></div>
 			<div class="col grid-1half m-grid-1">&nbsp;</div>
 		</div>
 		<div class="col grid-12">
@@ -144,7 +127,7 @@ while($custom_query->have_posts()) : $custom_query->the_post(); ?>
 				<div class="col grid-1half m-grid-1">&nbsp;</div>
 				<div class="col grid-11sp m-grid-10">
 					<div class="col grid-12">
-					<h2 class="eccRed">Partner Institutions</h2>
+					<h2 class="eccRed">Sponsors</h2>
 					</div>
 					<div class="col grid-12 pad-2-top">
 						<?php if ( function_exists( 'envira_gallery' ) ) { envira_gallery( '150' ); } ?>
@@ -155,7 +138,5 @@ while($custom_query->have_posts()) : $custom_query->the_post(); ?>
 		</div>
 		</div>
 	</div><!-- /#primary.site-content.row -->
-			<div class="col grey4 grid-12">
-				<img src="http://eccla.codisattva.com/wp-content/uploads/2015/12/ECCLA_Website-PatternBar_121415-2.png"/>
-			</div>
+			
 <?php get_footer(); ?>
