@@ -42,15 +42,41 @@
 
 	<div id="headercontainer">
 		
-		<header id="masthead" class="site-header row" role="banner">
-		
-			
-			
+		<header id="masthead" class="site-header eccla_wrapper row" role="banner">
+		<div class="row">
+			<div class="col grid-4 site-title">
+				<h1>
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" rel="home">
+						<?php 
+						$headerImg = get_header_image();
+						if( !empty( $headerImg ) ) { ?>
+							<img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
+						<?php } 
+						else {
+							echo get_bloginfo( 'name' );
+						} ?>
+					</a>
+				</h1>
+			</div> <!-- /.col.grid_5_of_12 -->	
+			<div class="col grid-8">
+				<form role="search" method="get" id="search-form" action="http://eccla.codisattva.com/">
+    				<div class="search-wrap pad-3-vert">
+    	
+        				<input type="search" name="s" id="search-input" value="">
+        				<button class="screen-reader-text" type="submit" id="search-submit"><i class="fa fa-search"></i></button>
+    				</div>
+				</form>
+				<div class="pad-3-top">
+				<p class="tagline"><?php bloginfo( 'description' ); ?></p>
+				</div>
+				<div class="s-grid-none"><?php ubermenu( 'main' , array( 'theme_location' => 'primary' ) ); ?> </div>
+			</div>
+		</div>	
 				
 				
 					<h3 class="menu-toggle assistive-text"><?php esc_html_e( 'Menu', 'quark' ); ?></h3>
 					<div class="assistive-text skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'quark' ); ?>"><?php esc_html_e( 'Skip to content', 'quark' ); ?></a></div>
-					<div class="s-grid-none"><?php ubermenu( 'main' , array( 'theme_location' => 'primary' ) ); ?> </div>
+					
 					
 				 <!-- /.site-navigation.main-navigation -->
 			

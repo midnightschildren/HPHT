@@ -26,6 +26,8 @@ body { margin: 0; font-size: 16px; font-size: 1rem; line-height: 1.5; }
 ::-moz-selection { background: #5784FE; color: #fff; text-shadow: none; }
 ::selection { background: #5784FE; color: #fff; text-shadow: none; }
 
+
+
 a { 
 	color: #E9543D;
 	outline: none;
@@ -398,6 +400,10 @@ input[type=search] {
 	color: #E9543D;
 }
 
+.search-wrap {
+	text-align: right;
+}
+
 .search .entry-header {
 	border-top: 1px solid #C3BEB6;
 }
@@ -432,6 +438,20 @@ input[type=search] {
 
 .tagblock .entry-content {
 	background-color: #9AD1DC;
+}
+
+.tagline {
+	font-family: 'BrixSansRegular-Italic', Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	padding:0;
+	margin:0;
+	font-size: 20px;
+	font-size: 1.25rem;
+	line-height: 1.16;
+	border-bottom: 4px solid rgb(0, 0, 0);
+	text-align: right;
+	margin-left: 50px;
 }
 
 .tagtext {
@@ -509,7 +529,7 @@ input[type=search] {
 
 #search-submit {
 	border: none;
-	margin-left: -2px;
+	margin-left: -4px;
 }
 
 .cff-post-text {
@@ -1151,8 +1171,8 @@ img.wp-smiley, .rsswidget img {
 	line-height: 1;
     font-size: 24px;
     color: #fff;
-    padding: 3px 6px 2px 4px;
-    background-color: #C3BEB6;
+    padding: 3px 6px 3px 4px;
+    background:rgba(132,147,142,0.5);
 }
 
 
@@ -1251,6 +1271,7 @@ input[type="submit"] {
 #search-input {
 	border: 0px inset;
 	padding-right: 0px;
+	background:rgba(132,147,142,0.5);
 }
 
 .gbtn {
@@ -3032,6 +3053,13 @@ h1.page-title {
    ========================================================================== */
 
 /*  Breakpoints are set based on the design, not based on device sizes */
+
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
+    #search-submit {
+    border: none;
+    margin-left: -3px;
+	} 
+}
 
 @media only screen and (max-width: 2000px) {
 
