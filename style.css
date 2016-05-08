@@ -163,6 +163,11 @@ a[href^="tel"]{
 	background-color: #56514C;
 }
 
+.byellow {
+	background-color: #F9E8B9;
+	
+}
+
 .grey4 {
 	background-color: #EEECE9;
 }
@@ -728,7 +733,7 @@ figure.fixedratiotop {
 
 a.eccRed,
 .eccRed {
-	color: #E9543D;
+	color: #67240A;
 }
 
 a.eccOrange,
