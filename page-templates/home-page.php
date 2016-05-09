@@ -15,6 +15,10 @@ get_header(); ?>
 
 <div class="col grid-12 green">
 	<div class="eccla_wrapper">
+		<div class="col grid-12">
+			<?php if ( function_exists( 'soliloquy' ) ) { soliloquy( '36' ); } ?>
+		
+		</div>	
 		<div class="col grid-12 pad-3-top">
 			<?php $custom_query = new WP_Query(array('post_type' => 'news', 'posts_per_page' => 1));
 			while($custom_query->have_posts()) : $custom_query->the_post(); ?>
@@ -28,7 +32,14 @@ get_header(); ?>
 			<?php endwhile; ?>
 			<?php wp_reset_postdata(); // reset the query ?>
 
-		</div>	
+		</div>
+
+		<div class="col grid-12">
+				<div class="btn-wrapper pad-3-vert">
+				<a href="http://highlandparkheritagetrust.org/News/"><div class="bbtn">Recent News</div></a>	
+				</div>
+		</div>
+
 	</div>
 
 </div>
