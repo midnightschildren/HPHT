@@ -34,22 +34,22 @@ a {
 	text-decoration: none;
 }
 
-.trip p a {
-	color: #56514C;
-	text-decoration: underline;
+.green p a {
+	color: #f2cc67;
+	text-decoration: none;
 }
 
-.trip p a:visited {
-	color: #56514C;
+.green p a:visited {
+	color: #f2cc67;
 }	
 
-.trip p a:hover {
-	color: #E9543D;
-	text-decoration: underline;
+.green p a:hover {
+	color: #f2cc67;
+	text-decoration: none;
 }
 
-.trip p a:active {
-	color: #E9543D;
+.green p a:active {
+	color: #f2cc67;
 	text-decoration: none;
 }
 
@@ -166,6 +166,10 @@ a[href^="tel"]{
 .byellow {
 	background-color: #F9E8B9;
 	
+}
+
+.green {
+	background-color: #3f5f47;
 }
 
 .grey4 {
@@ -373,6 +377,10 @@ input[type=search] {
 	font-family: 'BrixSansLight', Helvetica, Arial, sans-serif;
 	font-style: normal;
 	font-weight: 400;
+}
+
+.news p {
+	color: #ffffff;
 }
 
 .highlighted-resources {
@@ -753,6 +761,11 @@ a.eccBlue,
 a.eccGrey,
 .eccGrey {
 	color: #56514C;
+}
+
+a.eccWhite,
+.eccWhite, .eccWhite a {
+	color: #ffffff;
 }
 
 
@@ -1218,7 +1231,7 @@ input[type="submit"] {
 	text-align: center;
 	vertical-align: middle;
 	cursor: pointer;
-	background-color: #E9543D;
+	background-color: #67240a;
 	*border: 0;
 	-webkit-border-radius: 8px;
 	-moz-border-radius: 8px;

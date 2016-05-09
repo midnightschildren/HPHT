@@ -12,18 +12,27 @@
 get_header(); ?>
 
 <div id="primary" class="site-content row" role="main">
-<?php while ( have_posts() ) : the_post(); ?>
-<div id="callout green">
+
+<div class="col grid-12 green">
 	<div class="eccla_wrapper">
-		<div class="col grid-12">
+		<div class="col grid-12 pad-3-top">
+			<?php $custom_query = new WP_Query(array('post_type' => 'news', 'posts_per_page' => 1));
+			while($custom_query->have_posts()) : $custom_query->the_post(); ?>
+
+			<div <?php post_class(); ?> id="post-<?php the_ID(); ?>">
+			<h2 class="eccWhite"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+			<?php the_content(); ?>
+
+			</div>
+
+			<?php endwhile; ?>
+			<?php wp_reset_postdata(); // reset the query ?>
+
 		</div>	
 	</div>
 
-    
-
 </div>
-<?php endwhile; ?>
-<?php wp_reset_postdata(); // reset the query ?>			
+			
 		
 
 
@@ -31,7 +40,7 @@ get_header(); ?>
 		<div class="eccla_wrapper">
 		<div class="col grid-12">
 			<div class="col m-grid-1">&nbsp;</div>
-			<div class="col grid-11 m-grid-10 pad-1-bottom"><h2 class="eccBlue">Heritage Trust on Facebook</h2></div>
+			<div class="col grid-11 m-grid-10 pad-1-bottom"><h2 class="eccRed">Heritage Trust on Facebook</h2></div>
 			<div class="col m-grid-1">&nbsp;</div>
 		</div>
 		<div class="col grid-12">
@@ -43,7 +52,7 @@ get_header(); ?>
 		</div>	
 			<div class="col grid-12">
 				<div class="btn-wrapper pad-3-top">
-				<a href="https://www.facebook.com/ECCLAConnects/"><div class="bbtn">Connect</div></a>	
+				<a href="https://www.facebook.com/ECCLAConnects/"><div class="btn">Connect</div></a>	
 				</div>
 			</div>
 		</div>	
@@ -71,10 +80,7 @@ while($custom_query->have_posts()) : $custom_query->the_post(); ?>
 	</div>
 </div>
 
-<div class="grid-12 m-grid-11">
-<h4 class="frontpagenewstitle pad-2-bottom">Subscribe to our newletter</h4>
-<?php echo do_shortcode( '[salesforce form="2"]' ); ?>
-</div>
+
 
 </div>
 </div>
