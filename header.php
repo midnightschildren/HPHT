@@ -69,8 +69,12 @@
 				<div class="pad-3-top">
 				<p class="tagline"><?php bloginfo( 'description' ); ?></p>
 				</div>
-				<div class="s-grid-none"><?php ubermenu( 'main' , array( 'theme_location' => 'primary' ) ); ?> </div>
+				
 			</div>
+		</div>
+		<div class="row">
+			<div class="col grid-3 m-grid-none">&nbsp;</div>
+			<div class="col grid-9 m-grid-12 s-grid-12"><?php ubermenu( 'main' , array( 'theme_location' => 'primary' ) ); ?> </div>
 		</div>	
 				
 				
