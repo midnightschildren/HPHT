@@ -73,8 +73,8 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col grid-3 m-grid-none">&nbsp;</div>
-			<div class="col grid-9 m-grid-12 s-grid-12"><?php ubermenu( 'main' , array( 'theme_location' => 'primary' ) ); ?> </div>
+			<div class="col grid-4 m-grid-none">&nbsp;</div>
+			<div class="col grid-8 pad-3-left m-grid-12 s-grid-12"><?php ubermenu( 'main' , array( 'theme_location' => 'primary' ) ); ?> </div>
 		</div>	
 				
 				
