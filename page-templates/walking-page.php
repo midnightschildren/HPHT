@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Preservation Page Template
+ * Template Name: Walking Tour Page Template
  *
  * Description: Displays a full-width page, with no sidebar. This template is great for pages
  * containing large amounts of content.
@@ -13,16 +13,24 @@ get_header(); ?>
 
 <div id="primary" class="site-content row" role="main">
 
-<div class="col grid-12 slate pad-3-top">
+<div class="col grid-12 shutter_green">
 
 	<div class="eccla_wrapper">
+		<div class="col grid-12">
+			<?php if ( function_exists( 'soliloquy' ) ) { soliloquy( '116' ); } ?>
 		
+		</div>	
 		<div class="col grid-12 pad-3-top">
 
 			<?php if ( have_posts() ) : ?>
 
 				<?php while ( have_posts() ) : the_post(); ?>
-					<h2 class="eccWhite"><?php the_title(); ?></h2>
+
+					<?php if( get_field('alternative_title') ): ?>
+						<h2 class="eccWhite"><?php the_field('alternative_title'); ?></h2>
+					<?php else: ?>
+						<h2 class="eccWhite"><?php the_title(); ?></h2>
+					<?php endif; ?>	
 					<div class="preservation pad-3-vert">
 						<?php the_content(); ?>
 					</div>
@@ -58,30 +66,6 @@ get_header(); ?>
 	</div>
 
 </div>
-		
-
-
-		<div class="col grid-12 pad-3-vert s-pad-3-top s-pad-1-bottom">
-		<div class="eccla_wrapper">
-		<div class="col grid-12">
-			<div class="col m-grid-1">&nbsp;</div>
-			<div class="col grid-11 m-grid-10 pad-1-bottom"><h2 class="eccRed">Heritage Trust on Facebook</h2></div>
-			<div class="col m-grid-1">&nbsp;</div>
-		</div>
-		<div class="col grid-12">
-			<div class="col m-grid-1">&nbsp;</div>
-			<div class="col grid-11 m-grid-10">
-				<?php echo do_shortcode('[custom-facebook-feed]'); ?>
-			</div>
-			<div class="col m-grid-1">&nbsp;</div>
-		</div>	
-			<div class="col grid-12">
-				<div class="btn-wrapper pad-3-top">
-				<a href="https://www.facebook.com/ECCLAConnects/"><div class="btn">Connect</div></a>	
-				</div>
-			</div>
-		</div>	
-		</div> <!-- /.col.grid_12_of_12 -->
 
 <div class="col grid-12 pad-3-bottom byellow">
 <div class="eccla_wrapper">

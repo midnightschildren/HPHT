@@ -29,7 +29,7 @@ body { margin: 0; font-size: 16px; font-size: 1rem; line-height: 1.5; }
 
 
 a { 
-	color: #E9543D;
+	color: #67240a;
 	outline: none;
 	text-decoration: none;
 }
@@ -53,8 +53,26 @@ a {
 	text-decoration: none;
 }
 
+.preservation p {
+	color: #ffffff;
+	font-size: 24px;
+	font-size: 1.5em;
+	line-height: 1.5;
+	font-family: 'BrixSansLight', Helvetica, Arial, sans-serif;
+	font-style: normal;
+}
+
+.trust p {
+	color: #000000;
+	font-size: 18px;
+	font-size: 1.125em;
+	line-height: 1.5;
+	font-family: 'BrixSansLight', Helvetica, Arial, sans-serif;
+	font-style: normal;
+}
+
 a:visited { 
-	color: #E9543D;
+	color: #67240a;
 }
 
 a:focus { 
@@ -149,6 +167,22 @@ a[href^="tel"]{
 
 .blue {
 	background-color: #9AD1DC;
+}
+
+.renwick_beige {
+	background-color: #CBAE84;
+}
+
+.slate {
+	background-color: #85948F;
+}
+
+.shutter_green {
+	background-color: #1B2B11;
+}
+
+.ivory {
+	background-color: #F2DBA9;
 }
 
 .orange {
@@ -849,7 +883,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'BrixSansLight', Helvetica, Arial, sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	color: #56514C;
+	color: #000000;
 	margin-top: 0;
 	-webkit-hyphens: none;
    	-moz-hyphens: none;
@@ -1181,7 +1215,7 @@ img.wp-smiley, .rsswidget img {
 }
 
 #search-input {
-	line-height: 1.875;
+	line-height: 31px;
 	width: 50%;
 }
 
@@ -1190,7 +1224,7 @@ img.wp-smiley, .rsswidget img {
     font-size: 24px;
     color: #fff;
     padding: 3px 6px 3px 4px;
-    background:rgba(132,147,142,0.5);
+    background: #c1c9c6;
 }
 
 
@@ -1289,7 +1323,7 @@ input[type="submit"] {
 #search-input {
 	border: 0px inset;
 	padding-right: 0px;
-	background:rgba(132,147,142,0.5);
+	background: #c1c9c6;
 }
 
 .gbtn {
@@ -3076,7 +3110,7 @@ h1.page-title {
 @media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
     #search-submit {
     border: none;
-    margin-left: -3px;
+    margin-left: -4px;
 	} 
 }
 
