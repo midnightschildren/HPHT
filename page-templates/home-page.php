@@ -63,7 +63,7 @@ get_header(); ?>
 		</div>	
 			<div class="col grid-12">
 				<div class="btn-wrapper pad-3-top">
-				<a href="https://www.facebook.com/ECCLAConnects/"><div class="btn">Connect</div></a>	
+				<a href="https://www.facebook.com/Highland-Park-Heritage-Trust-174602389267747/"><div class="btn">Connect</div></a>	
 				</div>
 			</div>
 		</div>	

@@ -60,10 +60,11 @@
 			</div> <!-- /.col.grid_5_of_12 -->	
 			<div class="col grid-8">
 				<form role="search" method="get" id="search-form" action="http://eccla.codisattva.com/">
-    				<div class="search-wrap pad-3-vert">
-    	
+    				<div class="pad-3-vert">
+    					<div class="search-wrap">
         				<input type="search" name="s" id="search-input" value="">
         				<button class="screen-reader-text" type="submit" id="search-submit"><i class="fa fa-search"></i></button>
+    					</div>
     				</div>
 				</form>
 				<div class="pad-3-top">

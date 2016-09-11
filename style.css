@@ -86,6 +86,9 @@ a:hover, a:active {
 	text-decoration: none;
 }
 
+.involved .crm-title {
+	display: none;
+}
 
 menu { padding: 0; }
 
@@ -214,6 +217,22 @@ a[href^="tel"]{
 	background-color: #67240A;
 }
 
+.bung_red {
+	background-color: #6E292E;
+}
+
+.bung_beige {
+	background-color: #B09F98;
+}
+
+.bung_dkgrey {
+	background-color: #423E3B;
+}
+
+.bung_ltgrey {
+	background-color: #D2D1CF;
+}
+
 #callout {
 	width:100%; 
   	position: relative;
@@ -290,6 +309,7 @@ input[type=search] {
 	width: 75%;
 	margin: 0;
 }
+
 
 
 
@@ -577,6 +597,51 @@ input[type=search] {
 #search-submit {
 	border: none;
 	margin-left: -4px;
+}
+
+div.crm-container label {
+    font-weight: normal;
+    display: inline;
+    color: #fff;
+}
+
+.involved .crm-container fieldset legend {
+    display: block;
+    font-family: 'BrixSansRegular', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px;
+    background: none;
+    border: medium none;
+    background-color: transparent;
+    color: #000000;
+    position: relative;
+    text-indent: 0;
+    width: auto;
+}
+
+.involved .crm-container .crm-button, .involved .crm-container input.crm-form-submit {
+    text-shadow: 0 1px 0 black;
+    background: none;
+    background-color: #423E3B;
+    color: #FFF;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0 6px 0 0;
+    padding: 2px 6px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #423E3B;
+}
+
+.involved #crm-container.crm-public .price-set-row .crm-price-amount-amount {
+    min-width: 2em;
+    color: #000000;
+}
+
+.involved #crm-container.crm-public .price-set-row .crm-price-amount-label {
+    color: #fff;
+    font-weight: bold;
 }
 
 .cff-post-text {
@@ -1220,7 +1285,7 @@ img.wp-smiley, .rsswidget img {
 }
 
 #search-submit {
-	line-height: 1;
+	height: 32px;
     font-size: 24px;
     color: #fff;
     padding: 3px 6px 3px 4px;
@@ -1324,6 +1389,9 @@ input[type="submit"] {
 	border: 0px inset;
 	padding-right: 0px;
 	background: #c1c9c6;
+	height: 32px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 
 .gbtn {
