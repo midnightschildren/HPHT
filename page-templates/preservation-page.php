@@ -22,7 +22,7 @@ get_header(); ?>
 			<?php if ( have_posts() ) : ?>
 
 				<?php while ( have_posts() ) : the_post(); ?>
-					<h2 class="eccWhite"><?php the_title(); ?></h2>
+					<h1 class="eccWhite"><?php the_title(); ?></h1>
 					<div class="preservation pad-3-vert">
 						<?php the_content(); ?>
 					</div>

@@ -229,7 +229,7 @@ a[href^="tel"]{
 	background-color: #423E3B;
 }
 
-.bung_ltgrey {
+.bung_ltgrey, .bung_ltgrey a, a.bung_ltgrey {
 	background-color: #D2D1CF;
 }
 
@@ -605,6 +605,34 @@ div.crm-container label {
     color: #fff;
 }
 
+.g-recaptcha {
+	margin-left: 17%;
+}
+
+.header-meta .fa, .header-meta address.author.vcard, .header-meta .comments-link {
+	display: none;
+}
+
+.header-meta .post-categories {
+	float: right;
+}
+
+.page-template-default div.crm-container label {
+    font-weight: normal;
+    display: inline;
+    color: #000;
+}
+
+.page-template-involved-page .preservation {
+	color: #fff;
+}
+
+.involved #crm-container.crm-public .calc-value, #crm-container.crm-public .content {
+    padding-top: 6px;
+    font-size: 15px;
+    color: #000;
+}
+
 .involved .crm-container fieldset legend {
     display: block;
     font-family: 'BrixSansRegular', Helvetica, Arial, sans-serif;
@@ -620,7 +648,14 @@ div.crm-container label {
     width: auto;
 }
 
-.involved .crm-container .crm-button, .involved .crm-container input.crm-form-submit {
+.involved .crm-container a.button, .involved .crm-container a.button:link, .involved .crm-container a.button:visited {
+    display: block;
+    float: left;
+    line-height: 175%;
+}
+
+.involved .crm-container .crm-button, .involved .crm-container input.crm-form-submit, 
+.involved .crm-container a.button, .involved .crm-container a.button:link {
     text-shadow: 0 1px 0 black;
     background: none;
     background-color: #423E3B;
@@ -958,8 +993,8 @@ h1, h2, h3, h4, h5, h6 {
 h1 { 
 	margin-bottom: 24px;
 	margin-bottom: 1.5rem;
-	font-size: 60px;
-	font-size: 3.75rem;
+	font-size: 48px;
+	font-size: 3rem;
 	line-height: 1;
 	margin-left: -4px;
 }
@@ -1811,8 +1846,7 @@ article.sticky {
 }
 
 .header-meta {
-	border-top: 1px solid #ccc;
-	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #67240a;
 	margin-bottom: 10px;
 	margin-bottom: 0.625rem;
 	padding: 5px 0;
@@ -1910,10 +1944,9 @@ article.sticky {
 .post-tags a {
 	font-size: 14px;
 	font-size: 0.875rem;
-	background-color: #333;
 	color: #fff;
-	padding: 0 5px;
-	padding: 0 0.3125rem;
+	padding: 5px;
+	padding: 0.3125rem;
 	margin: 0 3px 0 0;
 	margin: 0 0.1875rem 0 0;
 	display: inline;
@@ -1927,7 +1960,7 @@ article.sticky {
 
 .post-categories a:hover,
 .post-tags a:hover {
-	background-color: #2997ab;
+	background-color: #67240a;
 	color: #fff;
 }
 
